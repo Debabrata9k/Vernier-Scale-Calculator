@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/edtMsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="15"
+        android:hint="@string/msd"
+        android:inputType="numberDecimal"
+        android:textColorHint="#546E7A" />
+
+    <EditText
+        android:id="@+id/edtVsd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="15"
+        android:hint="@string/vsd"
+        android:inputType="number"
+        android:textColorHint="#546E7A" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCalculate"
+        android:text="@string/cal"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtResult"
+        android:text="@string/result"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        android:layout_marginTop="11dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAnim"
+        android:text="@string/thank"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:layout_marginTop="21dp"/>
+
+
+
+</LinearLayout>

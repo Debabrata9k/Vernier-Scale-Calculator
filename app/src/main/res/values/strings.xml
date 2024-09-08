@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vernier Calliper Calculator</string>
+    <string name="splash">Welcome to DK World</string>
+    <string name="msd">Enter Main Scale Reading(cm)</string>
+    <string name="vsd">Enter Vernier Scale Reading(n)</string>
+    <string name="cal">Calculate</string>
+    <string name="result">Result</string>
+    <string name="thank">Thanks To Use This App</string>
+</resources>
